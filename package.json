@@ -1,0 +1,22 @@
+{
+    "name": "pure-evil",
+    "displayName": "pure-evil",
+    "description": "Dark and Deep",
+    "version": "0.0.1",
+    "publisher": "somePub",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "pure-evil",
+                "uiTheme": "vs-dark",
+                "path": "./themes/pure-evil-color-theme.json"
+            }
+        ]
+    }
+}
